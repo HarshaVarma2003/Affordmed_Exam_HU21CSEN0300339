@@ -70,6 +70,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'avg_calculator.wsgi.application'
 
+headers = {
+    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzI0NzM2MTQwLCJpYXQiOjE3MjQ3MzU4NDAsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6ImI5NzliNTExLTZkNzEtNDVjYy05MWM4LWE1ODdjZGI1ZjExNSIsInN1YiI6InNrYWxpZGluZGlAZ2l0YW0uaW4ifSwiY29tcGFueU5hbWUiOiJHSVRBTSIsImNsaWVudElEIjoiYjk3OWI1MTEtNmQ3MS00NWNjLTkxYzgtYTU4N2NkYjVmMTE1IiwiY2xpZW50U2VjcmV0IjoiRnptUnpvV0FJYkd5dUJ3SiIsIm93bmVyTmFtZSI6IkthbGlkaW5kaSBTcmVlIEhhcnNoYSBWYXJtYSIsIm93bmVyRW1haWwiOiJza2FsaWRpbmRpQGdpdGFtLmluIiwicm9sbE5vIjoiSFUyMUNTRU4wMzAwMzM5In0.JmTE6yZf8S--DInjCqlKZz5ssOFv9WG7ZZ4IM95kJiM'
+}
+
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
